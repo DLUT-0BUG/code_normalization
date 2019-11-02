@@ -11,7 +11,7 @@
 
 #### 缩进  
 缩进使用Tab键而不是空格  
-```
+```Cpp
 for(int i; i<UPPER_LIMIT; i++)
 {
     cnt ++;
@@ -20,7 +20,7 @@ for(int i; i<UPPER_LIMIT; i++)
 #### 大括号
 大括号需要换行  
 使用for、if、while等条件语句时，必须使用大括号，不管执行多少语句  
-```
+```Cpp
 int main()
 {
     for(int i; i<UPPER_LIMIT; i++)
@@ -36,7 +36,7 @@ int main()
 ```
 #### 空格
 逗号和分号必后加空格，运算符和变量之间也要用空格隔开  
-```
+```Cpp
 int front, back;
 sum = front + back;
 div = (first+second) / content;
@@ -59,7 +59,7 @@ if，while，for它后面的()之间不留空格
 #### 指针  
 定义指针时，星号*紧跟变量而非类型  
 使用指针时，*和&都要紧跟变量，不留空格  
-```
+```Cpp
 char *p;
 float *p_matrix;
 
@@ -70,14 +70,14 @@ x = r->y;
 ```
 #### 头文件定义  
 定义头文件时在尖括号或者双引号之前加空格  
-```
+```Cpp
 #include <iostream>
 #include "miku.h"
 ```
 #### 宏定义  
 宏定义不管上下文缩进，一定顶格写  
 宏定义#后不留空格  
-```
+```Cpp
 int MakeDecision()
 {
     if (lopsided_score) 
@@ -107,7 +107,7 @@ main函数之后才是其他函数
 函数内部定义变量之后空一行  
 宏定义和函数定义之间空一行  
 函数与函数之间空一行  
-```
+```Cpp
 #include <iostream>
 
 int Add(int first_num, int second_num);
@@ -134,7 +134,7 @@ int Add(int first_num, int second_num)
 宏定义和全局变量、函数定义用空行分隔开  
 同类定义之间不留空行  
 函数与函数之间留空行  
-```
+```Cpp
 #include <iostream>
 #include <time.h>
 
@@ -166,7 +166,7 @@ int Multiply(int first_num, int second_num)
 ## 注释规范  
 #### 文件注释
 在文件开头要写明以下详细信息：
-```
+```Cpp
 /*
 File name: robomaster
 Author: Guoqian Ma
@@ -183,7 +183,7 @@ Modification: (not necessary)
 #### 代码注释
 当你写一段代码时，一定要有注释，注释可以在语句后，也可以在代码段落之前用多行描述，单行注释用空格隔开注释符和源代码，多行注释与上一段代码用空行隔开，与要注释的代码紧紧相连。  
 示例：
-```
+```Cpp
 #include <iostream>
 
 int Add(int first_num, int second_num);
@@ -216,7 +216,7 @@ int Add(int first_num, int second_num) //This function sums up a and b
 
 #### 文件命名  
 文件命名统统小写，如有必要使用下划线或减号分隔开，推荐使用下划线
-```
+```Cpp
 //files
 my_useful_class.cc
 my-useful-class.cc
@@ -225,7 +225,7 @@ myusefulclass_test.cc
 ```
 #### 类、结构、函数命名  
 类、结构、函数的名称中，每个单词首字母大写
-```
+```Cpp
 //classes and structs
 class UrlTable { ...
 class UrlTableTester { ...
@@ -249,7 +249,7 @@ OpenFileOrDie()
 普通变量全部小写  
 const变量以小写字母k开头  
 指针变量以小写字母p开头  
-```
+```Cpp
 //variable names are lowercase with underscore.
 std::string table_name;
 int i, j, k;
@@ -266,7 +266,7 @@ char *p_message_buf;
 ```
 #### 宏定义命名  
 宏定义中的变量全部大写，单词与单词之间下划线分隔  
-```
+```Cpp
 //macro defines are all uppercase
 #define ROUND(x) ...
 #define PI_ROUNDED 3.0
