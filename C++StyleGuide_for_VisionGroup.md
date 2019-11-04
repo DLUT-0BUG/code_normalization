@@ -1,9 +1,27 @@
+```  
+/*  
+File name: C++StyleGuide_for_VisionGroup.md  
+Author: Guoqian Ma & Linwei Ye  
+Version: V1.2  
+Date: 2019-10-31  
+Description: This file is about how to write the normalize code. The vision code must achieve these rules.  
+  
+Modification: 1  
+    Modifier: Guoqian Ma  
+    Date: 2019-11-01  
+    Description: Change the style.  
+Modification: 2  
+    Modifier: Linwei Ye  
+    Date: 2019-11-04  
+    Description: Fix code style mistakes in example code.  
+*/  
+```  
 # 视觉组代码规范  
 <font size=5>**在代码文件中，不要出现任何中文字符！！！！！！！！**</font>  
 <font size=5>**代码的所有变量名和注释必须使用英文描述，不能使用拼音和拼音缩写！！！！！**</font>  
 <font size=5>**写代码的标准是能让刚接手项目的人很快看懂你的代码**</font>  
-**多学点英语单词吧pong友，不会的单词自己查**   
-**所有文件中的字符都要是ASCII字符表中有的**  
+多学点英语单词吧pong友，不会的单词自己查   
+所有文件中的字符都要是ASCII字符表中有的  
 
 ## 格式规范  
 #### 对齐  
@@ -14,7 +32,7 @@
 ```Cpp
 for(int i; i<UPPER_LIMIT; i++)
 {
-    cnt ++;
+    cnt++;
 }
 ```
 #### 大括号
@@ -25,7 +43,7 @@ int main()
 {
     for(int i; i<UPPER_LIMIT; i++)
     {
-        cnt ++;
+        cnt++;
     }
     if(i < 1)
     {
